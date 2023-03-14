@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Josefin+Sans:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <title>Style Guide</title>
+</head>
+<body>
+    <h1>My Website Style Guide</h1>
+
+    <div class="rectangle">
+    
+        <h2>Colors</h2>
+
+        <div class="Lime">
+            <p>Lime</p>
+            <p>#00ff00</p>
+        </div>
+
+        <div class="Aquamarine">
+            <p>Aquamarine</p>
+            <p>#7FFFD4</p>
+        </div>
+
+        <div class="Azure">
+            <p>Azure</p>
+            <p>#F0FFFF</p>
+        </div>
+
+        <div class="DeepSkyBlue">
+            <p>DeepSkyBlue</p>
+            <p>#00BFFF</p>
+        </div>
+    </div>
+
+    <div class="rectangle">
+        <div id="Amatic_SC">
+        <h2>Fonts</h2>
+        <h1>Amatic SC</h1>
+        <p id="Amatic_SC-normal">The quick brown fox jumps over the lazy dog</p>
+        <p id="Amatic_SC-bold">The quick brown fox jumps over the lazy dog</p>
+        <p id="Amatic_SC-italic">The quick brown fox jumps over the lazy dog</p>
+    </div>
+
+    <div id="Roboto_Slab">
+        <h1>Roboto Slab</h1>
+        <p id="Roboto_Slab-normal">The quick brown fox jumps over the lazy dog</p>
+        <p id="Roboto_Slab-bold">The quick brown fox jumps over the lazy dog</p>
+        <p id="Roboto_Slab-italic">The quick brown fox jumps over the lazy dog</p>
+    </div>
+
+    <div id="Josefin_Sans">
+        <h1>Josefin Sans</h1>
+        <p id="Josefin_Sans-normal">The quick brown fox jumps over the lazy dog</p>
+        <p id="Josefin_Sans-bold">The quick brown fox jumps over the lazy dog</p>
+        <p id="Josefin_Sans-italic">The quick brown fox jumps over the lazy dog</p>
+    </div>
+    
+    </div>
+    <div class="rectangle">
+        <h2>Text Styles</h2>
+        <h1>H1: Main page heading</h1>
+        <ul>
+            <li>Font-family: 'Amatic SC'</li>
+            <li>Font-weight: 700</li>
+            <li>Font-size: 55px</li>
+        </ul>
+
+        <h2>H2: Subheading</h2>
+        <ul>
+            <li>Font-family: 'Roboto Slab'</li>
+            <li>Font-weight: 400</li>
+            <li>Font-size: 20px</li>
+        </ul>
+
+        <h2>P: Paragraph text</h2>
+        <ul>
+            <li>Font-family: 'Josefin Sans'</li>
+            <li>Font-weight: 400</li>
+            <li>Font-style: italic</li>
+           
+        </ul>  
+    </div>
+       
+    
+</body>
+</html>
